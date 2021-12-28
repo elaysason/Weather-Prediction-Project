@@ -3,7 +3,8 @@ In this project, we get the data from Kafka stream and use it to predict the pre
 
 1. [General](#General)
     - [Program Structure](https://github.com/elaysason/Weather-Prediction-Project/blob/main/README.md#program-structure)  
-2. [Footnote](#footnote)
+2. [Installation](#Installation)
+4. [Footnote](#footnote)
 
 ## General
  The project is fouced on record from diffrent weather stations all across Europe.
@@ -20,5 +21,9 @@ b. MLmodel - Our goal in this part is given station and day to predict the preci
    random forset.
 c. Bouns - In this part we fouced on pattren recoginission. After divining the data into days with exterme amount of precipitation, days with normal amount of       
    precipitation and days without precipitation we chose it as our target variable.We chose naive bayesian classification becasue we saw that there isnt a simple relation    between the features and the relation is given a feature the probiality for the target parmater is higher which bayesian model is fitted to.
+### Installation
+1.Open the terminal
+2.Clone the project by:
+    $ git clone https://github.com/tomershay100/Multiclass-Classification.git
 ### Footnote
-I didn't include a install guide as the server which the data was taken from is no longer available so running the code in your machine is problmatic. I uploaded the project to present the procces and the results.
+I didn't include a running guide as the server which the data was taken from is no longer available so running the code in your machine is problmatic. I uploaded the project to present the procces and the results.
