@@ -29,4 +29,4 @@ The project is compased of(By order!):
     $ git clone https://github.com/tomershay100/Multiclass-Classification.git
 ```
 ### Footnote
-I didn't include a running guide as the server which the data was taken from is no longer available so running the code in your machine is problmatic. I uploaded the project to present the procces and the results.In the PDFs there is a more detailed explantion of each part in Hebrew :israel:	
+I didn't include a running guide as the server which the data was taken from is no longer available so running the code in your machine is problmatic. I uploaded the project to present the procces and the results.In the PDFs there is a more detailed explantion of each part in Hebrew.	
