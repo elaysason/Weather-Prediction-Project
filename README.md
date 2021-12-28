@@ -3,10 +3,8 @@ In this project, we get the data from Kafka stream and use it to predict the pre
 
 1. [General](#General)
     - [Background](#background)
-    - [Program Structure](https://github.com/elaysason/Deep-Learning-Comparining-Overfitting/blob/main/README.md#program-structure)
-    - [Running Instructions](https://github.com/elaysason/Deep-Learning-Comparining-Overfitting/blob/main/README.md#running-instructions)
-2. [Installation](#installation)
-3. [Footnote](#footnote)
+    - [Program Structure](https://github.com/elaysason/Deep-Learning-Comparining-Overfitting/blob/main/README.md#program-structure)  
+2. [Footnote](#footnote)
 
 ## General
  The project is fouced on record from diffrent weather stations all across Europe.
@@ -21,4 +19,7 @@ a. Data Analsis - We analyzed the data in 3 diffrents ways in order to select th
        diffrent from cluster to cluster and that the order ration between the clusters remains the same most of the time.
 b. MLmodel - Our goal in this part is given station and day to predict the precipitation amount in that day. We chose gradient boosting based tree after comapring with 
    random forset.
-c. 
+c. Bouns - In this part we fouced on pattren recoginission. After divining the data into days with exterme amount of precipitation, days with normal amount of       
+   precipitation and days without precipitation we chose it as our target variable.We chose naive bayesian classification becasue we saw that there isnt a simple relation    between the features and the relation is given a feature the probiality for the target parmater is higher which bayesian model is fitted to.
+### Footnote
+I didn't include a install guide as the server which the data was taken from is no longer available so running the code in your machine is problmatic. I uploaded the project to present the procces and the results.
