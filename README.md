@@ -8,3 +8,7 @@ In this project, we get the data from Kafka stream and use it to predict the pre
 2. [Installation](#installation)
 3. [Footnote](#footnote)
 
+## General
+
+### Background
+This 
