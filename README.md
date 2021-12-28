@@ -23,7 +23,10 @@ c. Bouns - In this part we fouced on pattren recoginission. After divining the d
    precipitation and days without precipitation we chose it as our target variable.We chose naive bayesian classification becasue we saw that there isnt a simple relation    between the features and the relation is given a feature the probiality for the target parmater is higher which bayesian model is fitted to.
 ### Installation
 1.Open the terminal
+
 2.Clone the project by:
+```
     $ git clone https://github.com/tomershay100/Multiclass-Classification.git
+```
 ### Footnote
 I didn't include a running guide as the server which the data was taken from is no longer available so running the code in your machine is problmatic. I uploaded the project to present the procces and the results.
