@@ -11,7 +11,7 @@ In this project, we get the data from Kafka stream and use it to predict the pre
 
 ### Program Structure
 The project is compased of(By order!):
-* ETL(extract,transform load) - In this notbook we got the data using kafka stream and transfomed it to our liking and into our desired and according to our deisgn into the diffrent tables.We chose to have 3 tables: time_df,sprtial_df and model_df.Time and sprital was used in our analsis according to time and sprtial of the data and model was used to train the model and comabines them both.Specific features were chosen also to our analsis and the models.
+* ETL(extract,transform load) - In this notbook we got the data using kafka stream and transfomed it to our liking and into our desired structure and according to our deisgn into the diffrent tables.We chose to have 3 tables: time_df,sprtial_df and model_df.Time and sprital was used in our analsis according to time and sprtial of the data and model was used to train the model and comabines them both.Specific features were chosen also to our analsis and the models.
 * Data Analsis - We analyzed the data in 3 diffrents ways in order to select the right features for the model:
     1. Time based - We found that there is a relation between the diffrent months and the varience of the perception in those months.
     2. Location based - We tried in first to find a realtion by country but we seen that the differnce between the diffrent countries isn't big enough.Therefore using            kmean algorithm we created 4 diffrent clusters(where each one serves as diffrent climate zone in Europe) 
