@@ -19,8 +19,7 @@ The project is compased of(By order!):
        diffrent from cluster to cluster and that the order ration between the clusters remains the same most of the time.
 * MLmodel - Our goal in this part is given station and day to predict the precipitation amount in that day. We chose gradient boosting based tree after comapring with 
    random forset.
-* Bonus - In this part we fouced on pattren recoginission. After divining the data into days with exterme amount of precipitation, days with normal amount of       
-   precipitation and days without precipitation we chose it as our target variable.We chose naive bayesian classification becasue we saw that there isnt a simple relation    between the features and the relation is given a feature the probiality for the target parmater is higher which bayesian model is fitted to.
+* Bonus - In this part we fouced on pattren recoginission. After divining the data into days with exterme amount of precipitation, days with normal amount of                  precipitation and days without precipitation we chose it as our target variable.We chose naive bayesian classification becasue we saw that there isnt a simple relation    between the features and the relation is given a feature the probiality for the target parmater is higher which bayesian model is fitted to.
 ### Installation
 1.Open the terminal
 
